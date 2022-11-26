@@ -2,7 +2,7 @@ const environment = process.env.NODE_ENV;
 
 const apis = {
   BASE_LOCAL_URL:environment==='development'?'http://localhost:3001':'',
-  BASE : environment==='development'?'https://online-exam-portal-backend.herokuapp.com':'',
+  BASE : 'https://online-exam-portal-backend.herokuapp.com',
   LOGIN : "/api/v1/login",
   GET_USER_DETAILS: "/api/v1/user/details",
   STUDENT_REGISTER: "/api/v1/public/register",
